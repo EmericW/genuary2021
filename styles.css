@@ -1,0 +1,67 @@
+body {
+  font-family: 'Cousine', monospace;
+  background-color: #000;
+  color: #FFFFFF;
+  font-weight: bold;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 100%;
+}
+
+#previous {
+  color: #FFFFFF;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+#next {
+  color: #FFFFFF;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+#note {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 1;
+  pointer-events: none;
+
+  animation: fadeOut 500ms ease-in-out 100ms forwards;
+  -webkit-animation: fadeOut 500ms ease-in-out 100ms forwards;
+  -moz-animation: fadeOut 500ms ease-in-out 100ms forwards;
+  -o-animation: fadeOut 500ms ease-in-out 100ms forwards;
+  -ms-animation: fadeOut 500ms ease-in-out 100ms forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
