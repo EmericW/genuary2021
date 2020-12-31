@@ -20,15 +20,17 @@ body {
   width: 100%;
 }
 
-#previous {
+a {
   color: #FFFFFF;
+}
+
+#previous {
   position: absolute;
   left: 10px;
   top: 10px;
 }
 
 #next {
-  color: #FFFFFF;
   position: absolute;
   right: 10px;
   top: 10px;
