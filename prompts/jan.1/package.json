@@ -5,8 +5,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "rm -fr dist/* && parcel src/index.html",
-    "build": "rm -fr dist/* && parcel build src/index.html"
+    "start": "rm -fr dist/* && parcel src/index.html --public-url .",
+    "build": "rm -fr dist/* && parcel build src/index.html --public-url ."
   },
   "devDependencies": {
     "@babel/core": "^7.12.10"
