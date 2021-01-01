@@ -3,6 +3,7 @@
 ## Prompts
  - [jan.1: Triple nested loop](https://emericw.github.io/genuary2021/prompts/jan.1/dist/)
  - [jan.2: Rule 30 (elementary cellular automaton)](https://emericw.github.io/genuary2021/prompts/jan.2/dist/)
+ - [jan.6: Triangle subdivision](https://emericw.github.io/genuary2021/prompts/jan.6/dist/)
 
 
 ## Run localy
@@ -16,5 +17,5 @@ node version 14.12.x
 
 ## Generate new prompt
 ```
-  cp -r /resources/template /prompts/jan.x"
+  cp -r resources/template prompts/jan.x
 ```
