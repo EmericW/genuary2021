@@ -1,0 +1,17 @@
+{
+  "name": "jan.x",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "rm -fr dist/* && parcel src/index.html",
+    "build": "rm -fr dist/* && parcel build src/index.html --public-url ."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10"
+  },
+  "dependencies": {
+    "images": "^3.2.3"
+  }
+}
