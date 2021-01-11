@@ -9,6 +9,10 @@
  - [jan.6: Triangle subdivision.](https://emericw.github.io/genuary2021/prompts/jan.6/dist/)
  - [jan.7: Generate some rules, then follow them by hand on paper.](https://emericw.github.io/genuary2021/prompts/jan.7/dist/)
  - [jan.8: Curve only.](https://emericw.github.io/genuary2021/prompts/jan.8/dist/)
+ - [jan.9: Interference patterns.](https://emericw.github.io/genuary2021/prompts/jan.9/dist/)
+ - [jan.10: Tree](https://emericw.github.io/genuary2021/prompts/jan.10/dist/)
+ - [jan.11: Use something other than a computer as an autonomous process (or use a non-computer random source).](https://emericw.github.io/genuary2021/prompts/jan.11/dist/)
+
 
 
 
