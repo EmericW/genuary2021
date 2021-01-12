@@ -12,6 +12,7 @@
  - [jan.9: Interference patterns.](https://emericw.github.io/genuary2021/prompts/jan.9/dist/)
  - [jan.10: Tree](https://emericw.github.io/genuary2021/prompts/jan.10/dist/)
  - [jan.11: Use something other than a computer as an autonomous process (or use a non-computer random source).](https://emericw.github.io/genuary2021/prompts/jan.11/dist/)
+ - [jan.12: Use an API (e.g. the weather).](https://emericw.github.io/genuary2021/prompts/jan.12/dist/)
 
 
 
