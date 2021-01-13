@@ -31,3 +31,24 @@ node version 14.12.x
 ```
   cp -r resources/template prompts/jan.x
 ```
+
+## Video export code snippits
+```
+// top level
+const encoder = new Whammy.Video(20);
+let canvas;
+
+// setup()
+canvas = createCanvas()
+
+// draw()
+encoder.add(canvas.canvas);
+
+if (frameCount === 20 * 10) {
+  encoder.compile(false, function (output) {
+    window.open(URL.createObjectURL(output));
+  });
+  noLoop();
+}
+
+```
