@@ -5,7 +5,7 @@ if (module.hot) module.hot.accept(() => window.location.reload());
 const MARGIN = 40;
 const CANVAS_WIDTH = window.innerWidth;
 const CANVAS_HEIGHT = window.innerHeight - MARGIN * 2;
-const WINDOW_SIZE = 30;
+const WINDOW_SIZE = 25;
 const POINT_SIZE = 20;
 const INTERVAL = (Math.PI * 2) / POINT_SIZE;
 const PI_NUMBERS = PI.split('');
@@ -37,12 +37,13 @@ function generateNextStack() {
 function drawStacks() {
   background(0);
   translate(CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2);
-  stroke(255);
   noFill();
+  strokeWeight(2);
 
   for (let i = 0; i < STACKS.length; i += 1) {
     const entry = STACKS[i];
 
+    stroke(255, 255, 255, map(STACKS.length - i, 0, STACKS.length, 50, 255));
     beginShape();
     for (let j = 0; j < entry.length; j += 1) {
       const { angle, offset } = entry[j];
