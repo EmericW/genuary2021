@@ -14,6 +14,8 @@
  - [jan.11: Use something other than a computer as an autonomous process (or use a non-computer random source).](https://emericw.github.io/genuary2021/prompts/jan.11/dist/)
  - [jan.12: Use an API (e.g. the weather).](https://emericw.github.io/genuary2021/prompts/jan.12/dist/)
  - [jan.13: Do not repeat.](https://emericw.github.io/genuary2021/prompts/jan.13/dist/)
+ - [jan.14: SUBDIVISION](https://emericw.github.io/genuary2021/prompts/jan.14/dist/)
+ - [jan.15: Let someone else decide the general rules of your piece.](https://emericw.github.io/genuary2021/prompts/jan.15/dist/)
 
 
 
