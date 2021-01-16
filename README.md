@@ -16,7 +16,7 @@
  - [jan.13: Do not repeat.](https://emericw.github.io/genuary2021/prompts/jan.13/dist/)
  - [jan.14: SUBDIVISION](https://emericw.github.io/genuary2021/prompts/jan.14/dist/)
  - [jan.15: Let someone else decide the general rules of your piece.](https://emericw.github.io/genuary2021/prompts/jan.15/dist/)
-
+ - [jan.16: Circles only.](https://emericw.github.io/genuary2021/prompts/jan.16/dist/)
 
 
 
