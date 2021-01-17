@@ -38,13 +38,9 @@ node version 14.12.x
 ```
 // top level
 const encoder = new Whammy.Video(45);
-let canvas;
-
-// setup()
-canvas = createCanvas()
 
 // draw()
-encoder.add(canvas.canvas);
+encoder.add(drawingContext);
 
 if (frameCount === 45 * 10) {
   encoder.compile(false, function (output) {
