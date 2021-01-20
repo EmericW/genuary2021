@@ -21,6 +21,7 @@
  - [jan.18: One process grows, another process prunes.](https://emericw.github.io/genuary2021/prompts/jan.18/dist/)
  - [jan.19: Increase the randomness along the Y-axis.](https://emericw.github.io/genuary2021/prompts/jan.19/dist/)
  - [jan.20: No loops.](https://emericw.github.io/genuary2021/prompts/jan.20/dist/)
+ - [jan.21: function f(x) { DRAW(x); f(1 * x / 4); f(2 * x / 4); f(3 * x / 4); }.](https://emericw.github.io/genuary2021/prompts/jan.21/dist/)
 
 ## Run localy
 node version 14.12.x
