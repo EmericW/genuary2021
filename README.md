@@ -17,25 +17,30 @@
  - [jan.14: SUBDIVISION](https://emericw.github.io/genuary2021/prompts/jan.14/dist/)
  - [jan.15: Let someone else decide the general rules of your piece.](https://emericw.github.io/genuary2021/prompts/jan.15/dist/)
  - [jan.16: Circles only.](https://emericw.github.io/genuary2021/prompts/jan.16/dist/)
-
-
+ - [jan.17: Draw a line, pick a new color, move a bit.](https://emericw.github.io/genuary2021/prompts/jan.17/dist/)
+ - [jan.18: One process grows, another process prunes.](https://emericw.github.io/genuary2021/prompts/jan.18/dist/)
+ - [jan.19: Increase the randomness along the Y-axis.](https://emericw.github.io/genuary2021/prompts/jan.19/dist/)
+ - [jan.20: No loops.](https://emericw.github.io/genuary2021/prompts/jan.20/dist/)
 
 ## Run localy
 node version 14.12.x
 ```
-  yarn
-  // cd into the prompt you wan't to run
-  cd prompts/jan.1
-  yarn start
+yarn
+// cd into the prompt you wan't to run
+cd prompts/jan.1
+yarn start
 ```
 
 ## Generate new prompt
 ```
-  cp -r resources/template prompts/jan.x
+cp -r resources/template prompts/jan.x
 ```
 
 ## Video export code snippits
 ```
+// include script
+<script src="../../../whammy.js"></script>
+
 // top level
 const encoder = new Whammy.Video(45);
 
@@ -48,5 +53,4 @@ if (frameCount === 45 * 10) {
   });
   noLoop();
 }
-
 ```
