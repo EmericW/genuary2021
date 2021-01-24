@@ -12,6 +12,8 @@ module.exports = {
   globals: {
     circle: true,
     square: true,
+    createCapture: true,
+    VIDEO: true,
   },
 
   rules: {

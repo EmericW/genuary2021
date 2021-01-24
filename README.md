@@ -22,6 +22,9 @@
  - [jan.19: Increase the randomness along the Y-axis.](https://emericw.github.io/genuary2021/prompts/jan.19/dist/)
  - [jan.20: No loops.](https://emericw.github.io/genuary2021/prompts/jan.20/dist/)
  - [jan.21: function f(x) { DRAW(x); f(1 * x / 4); f(2 * x / 4); f(3 * x / 4); }.](https://emericw.github.io/genuary2021/prompts/jan.21/dist/)
+ - [jan.22: Draw a line. Wrong answers only.](https://emericw.github.io/genuary2021/prompts/jan.22/dist/)
+ - [jan.23: #264653 #2a9d8f #e9c46a #f4a261 #e76f51, no gradients. Optionally, you can use a black or white background.](https://emericw.github.io/genuary2021/prompts/jan.23/dist/)
+ - [jan.24: 500 lines.](https://emericw.github.io/genuary2021/prompts/jan.24/dist/)
 
 ## Run localy
 node version 14.12.x
