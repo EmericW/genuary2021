@@ -20,8 +20,8 @@ const DIFFERENTIAL_VERTEX_DIRECTIONS = [
   VERTEX_DIRECTION_BOTTOM,
 ];
 
-const ROWS = 300;
-const COLUMNS = 300;
+const ROWS = 80;
+const COLUMNS = 80;
 const VALUES = [];
 
 function calculateValueIndex(xOffset, yOffset) {
