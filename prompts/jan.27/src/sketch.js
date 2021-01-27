@@ -16,7 +16,7 @@ const SCALE = 5;
 const COLS = GRID_WIDTH / SCALE;
 const ROWS = GRID_HEIGHT / SCALE;
 const POSITIONAL_NOISE_RESOLUTION = 0.02;
-const TIME_NOISE_RESOLUTION = 0.015;
+const TIME_NOISE_RESOLUTION = 0.04;
 
 export function setup() {
   createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
