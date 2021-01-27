@@ -27,6 +27,7 @@
  - [jan.24: 500 lines.](https://emericw.github.io/genuary2021/prompts/jan.24/dist/)
  - [jan.25: Make a grid of permutations of something.](https://emericw.github.io/genuary2021/prompts/jan.25/dist/)
  - [jan.26: 2D Perspective.](https://emericw.github.io/genuary2021/prompts/jan.26/dist/)
+ - [jan.27: Monochrome gradients without lines.](https://emericw.github.io/genuary2021/prompts/jan.27/dist/)
 
 ## Run localy
 node version 14.12.x
