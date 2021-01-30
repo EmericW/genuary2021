@@ -29,6 +29,7 @@
  - [jan.26: 2D Perspective.](https://emericw.github.io/genuary2021/prompts/jan.26/dist/)
  - [jan.27: Monochrome gradients without lines.](https://emericw.github.io/genuary2021/prompts/jan.27/dist/)
  - [jan.28-29: Use sound. - Any shape, none can touch.](https://emericw.github.io/genuary2021/prompts/jan.28-29/dist/)
+ - [jan.30: Replicate a natural concept (e.g. gravity, flocking, path following).](https://emericw.github.io/genuary2021/prompts/jan.30/dist/)
 
 ## Run localy
 node version 14.12.x
