@@ -5,7 +5,7 @@ const CANVAS_WIDTH = window.innerWidth;
 const CANVAS_HEIGHT = window.innerHeight - MARGIN * 2;
 const HALF_CANVAS_WIDTH = CANVAS_WIDTH / 2;
 const HALF_CANVAS_HEIGHT = CANVAS_HEIGHT / 2;
-const GRID_SIZE = 400;
+const GRID_SIZE = 800;
 const HALF_GRID_SIZE = GRID_SIZE / 2;
 
 let scale = GRID_SIZE;
@@ -23,6 +23,7 @@ export function setup() {
   createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
   background(0);
   frameRate(1);
+  strokeWeight(8);
   noFill();
 }
 
@@ -31,9 +32,6 @@ export function draw() {
     HALF_CANVAS_WIDTH - HALF_GRID_SIZE,
     HALF_CANVAS_HEIGHT - HALF_GRID_SIZE,
   );
-
-  stroke(255);
-  rect(-1, -1, GRID_SIZE + 2, GRID_SIZE + 2);
 
   stroke(strokeColor);
 
@@ -48,8 +46,11 @@ export function draw() {
 
   scale /= 2;
 
-  if (scale < 1) {
+  if (scale < 5) {
     scale = GRID_SIZE;
     strokeColor = strokeColor === 255 ? 0 : 255;
   }
+
+  stroke(255);
+  rect(-1, -1, GRID_SIZE + 2, GRID_SIZE + 2);
 }
